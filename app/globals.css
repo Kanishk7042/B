@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+
+}
+
+.scrollbar-hide{
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+
+/* Main Blog Content Container */
+.blog-content {
+    padding: 36px 0;
+    color: #333;
+    font-family: 'Georgia', serif;
+}
+
+/* Bold Text */
+.blog-content b {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #222;
+}
+
+/* Paragraphs */
+/* Headings */
+.blog-content h1 {
+    margin: 0 0 10px; /* Remove top margin */
+    font-weight: 600;
+    font-size: 26px;
+    color: #222;
+}
+
+.blog-content p {
+    margin: 0; /* Reset margin */
+    margin-bottom: 10px; /* Set bottom margin */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+
+.blog-content h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333;
+}
+
+.blog-content h3 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #444;
+}
+
+/* Lists */
+.blog-content ul {
+    margin: 15px 0;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.blog-content ol {
+    margin: 15px 0;
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+.blog-content ul li,
+.blog-content ol li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Blockquotes */
+.blog-content blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #888;
+    font-style: italic;
+    color: #555;
+}
+
+/* Images */
+.blog-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+.blog-content a {
+    color: #007acc;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.blog-content a:hover {
+    color: #005f99;
+    text-decoration: none;
+}
+
+/* Inline Code */
+.blog-content code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95em;
+    border-radius: 3px;
+    color: #d14;
+}
+
+/* Code Blocks */
+.blog-content pre {
+    background-color: #f4f4f4;
+    padding: 12px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95em;
+    color: #444;
+    overflow-x: auto;
+}
+
+/* Horizontal Rule */
+.blog-content hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
